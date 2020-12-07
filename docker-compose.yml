@@ -30,7 +30,8 @@ services:
       MYSQL_DATABASE: participants
       MYSQL_USER: tselab
       MYSQL_PASSWORD: LiliaGrace
-    restart: unless-stopped
+      MYSQL_PORT: 3306
+    restart: always
 
   adminer:
     container_name: my-experiment-adminer

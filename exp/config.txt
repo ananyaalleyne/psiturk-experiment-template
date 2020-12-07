@@ -14,7 +14,7 @@ number_hits_approved = 0
 require_master_workers = false
 
 [Database Parameters]
-database_url = mysql://paxton:psiturk@db:3306/participants
+database_url = mysql://root:mypassword@db:3306/participants
 table_name = turkdemo
 
 [Server Parameters]
